@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e5ebe5;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    background-color: #808080c7;
+    padding: 0.1vh;
+}
+.logo{
+    margin: 1.8vw;
+    animation-name: animation_logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear ;
+}
+@keyframes animation_logo{
+    0%{
+        translate: 0 -12%;
+    }
+    100%{
+        translate: 0 12%;
+        
+    }
+}
+ul{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    list-style: none;
+    margin-right: 1.8vw;
+}
+li{
+    float: right;
+    padding: 2.5vw;
+    font-size: 1.25em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.section_1{ 
+    width: 90%;
+    margin: auto;
+    margin-top: 13vh;
+    animation-name: debut;
+    animation-duration: 2.5s;  
+}
+.section_1 div:hover{
+    animation-name: div;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+@keyframes div{
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 1.1;
+        filter: grayscale(1);
+        box-shadow: none;
+    }
+}
+@keyframes debut{
+    0%{
+        translate: 0 -40vh;
+    }
+    100%{
+        translate: 0 0;
+    }
+}
+.opprnhimer{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/opprnhimer\ photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.TRUNK_LOCKED_IN{
+    width: 29vh;
+    float: right;
+    margin: 2vw;
+    background-image: url(image/TRUNK\ LOCKED\ IN.jpg);
+    height: 44vh;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Killers_of_the_Flower_Moon{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Killers\ of\ the\ Flower\ Moon\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.monsters_103_mercies_dragon{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/monsters\ 103\ mercies\ dragon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Fast_X_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Fast\ X\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Need_for_Speed_2014{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Need\ for\ Speed\ 2014.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Rumble_Through_the_Dark_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Rumble\ Through\ the\ Dark\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.The_Boys_in_the_Boat_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Boys\ in\ the\ Boat\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Babylon{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Babylon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Spider_Man_Across_the_Spider_Verse_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Spider-Man\ Across\ the\ Spider-Verse\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.The_Fabelmans_2022{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Fabelmans\ 2022_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Marte_um{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Marte\ Um\ 2022.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.All_of_Us_Strangers_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/All\ of\ Us\ Strangers\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Revoir_Paris_2022{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Revoir\ Paris\ 2022.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Wonka_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Wonka\ 2023jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Lord_of_Misrule_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Lord\ of\ Misrule\ 2023jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.The_Beekeeper_2024{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Beekeeper\ 2024_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Thanksgiving_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Thanksgiving\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.The_Dirty_South_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Dirty\ South\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Hypnotic_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Hypnotic\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Ferrari_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Ferrari\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ; 
+}
+.Wish_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Wish\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ; 
+}
+.The_Piper_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Piper\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ; 
+}
+.The_Kitchen_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Kitchen\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.The_Great_Escaper_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Great\ Escaper\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.There’s_Something_in_the_Barn_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/There’s\ Something\ in\ the\ Barn\ 2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Wonderwell_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Wonderwell\ 2023jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.The_Marvels_2023{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/The\ Marvels\ 2023pg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Spider_Man_Homecoming_2017{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Spider\ Man\ Homecoming\ 2017.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.Night_Swim_2024{
+    width: 29vh;
+    height: 44vh;
+    float: right;
+    margin: 2vw;
+    border-radius: 30px;
+    background-image: url(image/Night\ Swim\ 2024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 8px #6d6f6d ;
+}
+.regarder{
+    width: 45%;
+    height: 5vh;
+    float: right;
+    padding: 8px;
+    text-align: center;
+    margin-top: 1.5vh;
+    margin-right: 1vh;
+    background-color:#ffffffb4 ;
+    border-radius: 20px;
+    border-style: none;
+    
+}
+.telecharger{
+    width: 45%;
+    height: 5vh;
+    float: right;
+    padding: 8px ;
+    text-align: center;
+    margin-top: 1.5vh;
+    margin-right: 1vh;
+    background-color:#ffffffb4 ;
+    border-radius: 20px;
+    border-style: none;
+    
+}
+
+
+.regarder:hover{
+    animation-name: regarder;
+    animation-duration: 0.4s;
+    animation-fill-mode:forwards ;
+}
+@keyframes regarder{
+    0%{
+        background-color: #ffffffb4;
+    }
+    100%{
+        background-color: #ffffff;
+    }
+}
+.telecharger:hover{
+    animation-name: regarder;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes regarder{
+    0%{
+        background-color: #ffffffb4;
+    }
+    100%{
+        background-color: #ffffff;
+    }
+}
